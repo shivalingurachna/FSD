@@ -1,0 +1,33 @@
+html{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: antiquewhite;
+}
+h2{
+font-style: oblique;
+}
+.br1{
+    padding-right:400px;
+}
+nav{
+background-color: hwb(0 97% 0%);
+border-radius: 40px;
+padding:3px;
+border-radius: 5px;
+margin-left: 150px;
+margin-right: 400px;
+margin-top:-70px;
+border-color: white;
+color: rgb(153, 147, 147);
+}
+p{
+    padding-left: 800px;
+    font-size: 20px;
+    color:rgb(114, 110, 110); ;
+}
+.info{
+    color:rgb(92, 91, 91);
+    padding:10px;
+    margin-top: -5px;
+}

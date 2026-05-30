@@ -1,0 +1,30 @@
+h1{
+            text-align: center ;
+            text-align:;
+            text-shadow: 5px 5
+            px rgb(146, 9, 9);
+        }
+p{
+    stop-color: rgb(8, 8, 8);
+    
+}
+.rachana{
+   background-position: center;
+}
+#abc{
+    color:rgb(10, 10, 10);
+}
+
+body{
+    background-color: rgb(32, 0, 0);
+    font-family:chiller;
+    font-size: 20px;
+    font-style: italic;
+    line-height :20px;
+    line-gap-override: 20px;
+    letter-spacing: 0.5px;
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+    background-image: url("https://images.unsplash.com/photo-1669252077491-a4e88cc9028a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGF2ZWx8ZW58MHx8MHx8fDA%3D")
+    
+}
