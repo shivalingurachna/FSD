@@ -25,12 +25,12 @@ a{
 
 }
 .create-button{
-    background-color: white;
+    background-color:#0065E1 ;
     padding:10px;
-    margin-top: 50px;
-    border-radius: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
     width: 400px;
-    border: 1px solid #0065E1;
+    border:1px solid #0065E1;
     color:#0065E1;
 }
 h6{
