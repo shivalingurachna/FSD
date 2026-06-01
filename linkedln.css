@@ -40,12 +40,12 @@ i,a{
 .image{
    width: 700px;
    height: 700px;
-   margin-top: -20px;
-   margin-left: 200px;
+   margin-top: -25px;
+   margin-left: 350px;
 }
 .body-info{
-    margin-top: -750px;
-    margin-left: -150px;
+    margin-top: -800px;
+    margin-left: 150px;
 }
 .paratittle{
     font-size: 44px;
@@ -122,10 +122,11 @@ margin-left: 100px;
 }
 .buttons-p-1{
     background-color: #F4F3F1;
-    margin-left: -300px;
-    margin-top: -30px;
-    
+    margin-top: 30px;
+    margin-left: -5px; 
 }
+
+
 .block2{
     background-color: #F2EDE6;
     margin-left: -300px;
@@ -136,7 +137,8 @@ margin-left: 100px;
     border:1px solid #0A67C2;
     border-radius: 20px;
     color: #0A67C2;
-    margin-left: 610px;
+    margin-top: -60px;
+    margin-left:950px;
     padding-bottom:15px;
     padding-top: 15px;
     padding-left:30px;
@@ -146,21 +148,21 @@ margin-left: 100px;
 }
 .block2-p{
     color: #B13F20;
-    margin-left:350px;
+    margin-left:700px;
     padding-top: 60px;
     margin-bottom: 100px;
 
 }
 .block3-p{
-margin-left: -220px;
+margin-left: 110px;
 margin-top:250px;
 }
 .block3-p1{
-margin-left: -220px;
-margin-top:-15px;
+margin-left:110px;
+margin-top:-75px;
 }
 .button3{
-    margin-left: 300px;
+    margin-left: 600px;
     margin-top:-170px;
 }
 .button-3{
@@ -178,4 +180,155 @@ margin-top:-15px;
     border-radius: 30px;
     font-size: 16px;
     color: #0A67C2;
+}
+.block4-p1{
+margin-left: 110px;
+margin-top:250px;
+font-size: 36px;
+margin-left: 100px;
+margin-top: 60px;
+}
+.block4-p2{
+margin-left:110px;
+margin-top:-75px;
+font-size: 22px;
+margin-left: 100px;
+}
+.button-4{
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid rgb(73, 72, 72);
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+}
+.button4{
+margin-left: 600px;
+margin-top: -170px;
+}
+.block5-bg{
+    background-color: #F4F3F1;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.block4{
+    padding-bottom: 120px;
+}
+.block5-image{
+    width: 450px;
+    height: 450px;
+    margin-top: -350px;
+    margin-left: 730px;  
+}
+.block5-p1{
+margin-left: 110px;
+font-size: 36px;
+color: #B24020;
+}
+.block5-p2{
+margin-left: 110px;
+margin-top:-80px;
+font-size: 22px;
+padding: -4px;
+}
+.block5-i{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+.block6{
+padding-top: 180px;
+padding-bottom: 100px;
+}
+.block6-img1{
+margin-left: 100px;
+}
+.block6-img2{
+margin-left: 350px;
+}
+.block6-p1{
+font-size: 36px;
+margin-top: -50px;
+margin-left: 100px ;
+}
+.block6-p2{
+font-size: 36px;
+margin-top: -180px;
+margin-left: 720px ;
+}
+.block6-b1{
+background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid rgb(73, 72, 72);
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(20, 20, 20);
+    margin-top: -10px;
+    margin-left: 100px ;
+}
+.block6-b2{
+background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid rgb(185, 181, 181);
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    margin-top: -120px;
+    margin-left: 425px ;
+    padding-right: 10px;
+}
+.block7-both{
+    padding-top: 100px;
+}
+.block7{
+     background-color:#F4F3F1;
+     padding: 50px;
+}
+.block7-img{
+  width: 900px;
+  height: 900px;  
+  margin-left: 800px;
+  margin-top: -700px;
+}
+.block7-b1{
+    background-color:#EAE6DF;
+    padding: 10px;
+    border: 1px solid #EAE6DF ;
+    border-radius: 1px;
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.block7-b2{
+    background-color:#EAE6DF;
+    padding: 10px;
+    border: 1px solid #EAE6DF ;
+    border-radius: 1px;
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.block7-b3{
+    background-color:#EAE6DF;
+    padding: 10px;
+    border: 1px solid #EAE6DF ;
+    border-radius: 1px;
+    font-size: 20px;
+    color: black;
+    padding-right: 10px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.block7-p1{
+    color: #B24020 ;
+    padding-block-start: 200px;
+    padding-block-end: 200px
+}
+.block7-p2{
+    font-size: 26px;
+    margin-top: -290px;
 }
