@@ -1,0 +1,75 @@
+h1{
+    position: relative;
+    left: 500px;
+}
+
+.navbar-li{
+     display: inline;
+}
+.navbar-a{
+ text-decoration: none;
+ color: bisque;
+ padding: 15px;
+ font-size: 20px;
+}
+.nav-bar{
+    background-color: rgb(55, 122, 122);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top : 0px;
+}
+.couresnav-ul{
+display: none;
+background-color: rgb(143, 206, 231);
+display: none;
+    z-index: 10px;
+    position:absolute;
+    margin-left: 160px;
+}
+.couresnav-li{
+display:block;
+}
+.couresnav-a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .couresnav-ul{
+    display: block;
+}
+.books-a{
+    text-decoration: none;
+    color: black;
+}
+.books-li{
+    display: block;
+}
+
+.books-ul{
+    display: none;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: 10px;
+    margin-left: 250px;
+}
+.dropdownbook:hover .books-ul{
+    display: block;
+}
+.contract-li{
+display: block;
+}
+.contract-a{
+text-decoration: none;
+color: black;
+}
+.dropdowncontract:hover .contract-ul{
+    display: block;
+}
+.contract-ul
+{
+display: none;
+position: absolute;
+z-index: 10px;
+left: 400px;
+background-color: aqua;
+}

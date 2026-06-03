@@ -1,0 +1,116 @@
+.image1{
+ position: relative;
+ width: 188px;
+ height: 188px;
+ left:60px;
+ top:-20px;
+}
+.navbar-a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+.navbar-li{
+    display: inline;
+    padding: 10px;
+    position: relative;
+    left: 700px;
+    top: -160px;
+}
+h1{
+    position: relative;
+    top:100px;
+    left: 60px;
+}
+.image2{
+    width:1210px ;
+    height:568 px;
+    position: relative;
+    top:-100px;
+    left: 60px;
+}
+.image3{
+position: relative;
+left: 53px;
+top: 100px;
+}
+.para1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 400px;
+    width: 850px;
+    top:-270px
+}
+.h1-awards{
+    position: relative;
+    top: -160px ;
+}
+.img-award{
+    height: 120px;
+    width:120px;
+    position: relative;
+    left:18px;
+}
+.about-award{
+    position: relative;
+    top: 10px;
+}
+.h1-projectts{
+position: relative;
+top: -400px;
+}
+.image4{
+    position: relative;
+left: 53px;
+top: -380px;
+}
+.para2{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 450px;
+    top: -700px;
+    width: 850px;
+}
+.para2-1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    top: -650px;
+    left:53px ;
+}
+.image5{
+position: relative;
+left: 650px;
+top: -580px;
+}
+.para3{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 50px;
+    top: -916px;
+    width: 570px;
+}
+.para3-1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 850px;
+    top: -966px;
+}
+.h1-gallery{
+    position: relative;
+top: -900px;
+}
+.gallery-images{
+    position: relative;
+    top: -850px;
+    left: 60px;
+}
+
+.h1-contract{
+    position: relative;
+    top: -800px;
+}

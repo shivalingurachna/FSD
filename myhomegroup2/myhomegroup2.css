@@ -1,0 +1,267 @@
+@media only screen and (min-width:720px){
+    .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+.image1{
+ position: relative;
+ width: 180px;
+ height: 180px;
+ left: -100px;
+}
+.navbar-a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+.navbar-li{
+    display: inline;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+h1{
+    position: relative;
+    top:100px;
+    left: 60px;
+}
+.image2{
+    width:1210px ;
+    height:568 px;
+    position: relative;
+    left: 60px;
+}
+.image3{
+position: relative;
+left: 53px;
+top: 100px;
+}
+.para1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 400px;
+    width: 850px;
+    top:-270px
+}
+.h1-awards{
+    position: relative;
+    top: -160px ;
+}
+.awards-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    justify-content:space-evenly;
+    position: relative;
+    top: -250px;
+}
+.awards-img{
+    height: 200px;
+    width: 200px;
+}
+.h1-projectts{
+position: relative;
+top: -300px;
+}
+.image4{
+    position: relative;
+left: 53px;
+top: -250px;
+}
+.para2{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 450px;
+    top: -560px;
+    width: 850px;
+}
+.para2-1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    top: -530px;
+    left:53px ;
+}
+.image5{
+position: relative;
+left: 650px;
+top: -480px;
+}
+.para3{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 50px;
+    top: -816px;
+    width: 570px;
+}
+.para3-1{
+    font-weight: 400px;
+    font-size: 36px;
+    position: relative;
+    left: 850px;
+    top: -866px;
+}
+.h1-gallery{
+    position: relative;
+top: -800px;
+}
+.gallery-images{
+    position: relative;
+    top: -750px;
+    left: 60px;
+}
+
+.h1-contract{
+    position: relative;
+    top: -700px;
+}
+}
+
+@media only screen and (max-width:720px){
+    
+.nav-bar{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+} 
+.image1{
+ position: relative;
+ width: 180px;
+ height: 180px;
+}
+.navbar-a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navbar-li{
+    display:block;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+h1{
+    position: relative;
+    top:100px;
+    left: 60px;
+}
+.image2>img{
+    position: relative;
+    top:50px;
+    left: -10px;
+    width: 350px;
+    height:130px ;
+}
+.abouth1{
+    position: relative;
+ left:-5px;
+ font-size: 20px;
+}
+.image3>img{
+position: relative;
+top: 100px;
+width: 100px;
+height: 150px;
+}
+.para1{
+    font-size:16px;
+    position: relative;
+    width: 300px;
+    top: 100px;
+}
+.h1-awards{
+    position: relative;
+    left: -5px;
+    font-size: 20px;
+}
+.awards-img>img{
+    position: relative;
+    height: 150px;
+}
+.awards-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    top: 120px;
+    justify-content:space-evenly;
+    position: relative;
+}
+.h1-projectts{
+     position: relative;
+ left:-5px;
+ top: 110px;
+ font-size: 20px;
+}
+.image4{
+    position: relative;
+left: 120px;
+top: 120px;
+width: 200px;
+height: 150px;
+}
+.para2{
+    font-weight: 400px;
+    font-size: 16px;
+    position: relative;
+    width: 320px;
+    top: 140px;
+}
+.para2-1{
+    font-weight: 400px;
+    font-size: 18px;
+    position: relative;
+    top:-20px ;
+    left:183px ;
+}
+.image5{
+position: relative;
+top: 120px;
+width: 350px;
+height: 180px;
+}
+.para3{
+    font-weight: 400px;
+    font-size: 16px;
+    position: relative;
+    top: 140px;
+    width: 320px;
+}
+.para3-1{
+    font-weight: 400px;
+    font-size: 18px;
+    position: relative;
+    top:-20px;
+    left:90px
+}
+.h1-gallery{
+    position: relative;
+    left:-5px;
+ top: 100px;
+ font-size: 20px;
+
+}
+.gallery-images{
+    position: relative;
+    top: 130px;
+    left: 10px;
+}
+.h1-contract{
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+    left:-5px;
+}
+
+
+
+
+
+}

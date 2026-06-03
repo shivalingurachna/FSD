@@ -7,8 +7,13 @@ margin-top: -30px;
     margin-left: 25px;
     margin-top: 50px;
 }
+.buttonsearch{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: 20px;
+}
 .search{
-  margin-left: 400px;
+  margin-left: 350px;
   margin-top:-35px;
   margin-right: 400px;
   margin-bottom: -30px;
@@ -16,7 +21,7 @@ margin-top: -30px;
   border-radius: 30px;
   border: 1px solid grey;
   color: grey;
-  background-color: #ffffff;
+  background-color:#ffffff;
 }
 input{
     width: 460px;
@@ -101,7 +106,7 @@ border-radius:20px;
 }
 .dropdownli:hover{
     background-color:#EAEBEB;
-    padding:20px;
+    padding-top:20px;
     border-radius: 20px;
 }
 .dropdownlib{
