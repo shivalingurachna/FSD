@@ -1,0 +1,95 @@
+.logo{
+    position: relative;
+    width: 90px;
+    height: 80px;
+    left: 10px;
+    top: 5px;
+}
+.nav-a{
+text-decoration: none;
+font-size: 20px;
+color: #ffffff;
+}
+.nav-li{
+    position: relative;
+    display:inline;
+    left:570px;
+    top: -65px;
+    padding: 10px;
+}
+.head-class{
+    background-color: #10273C;
+    position: relative;
+    height: 95px;
+    border-radius: 10px;
+}
+.footer1{
+    position: relative;
+    background-color: #10273C;
+    height:330px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.block1{
+    position: relative;
+    left: 40px;
+    top:30px;
+    P{
+        position: relative;
+      font-size: 16px;  
+    }
+}
+.block2{
+    position: relative;
+    top: 50px;
+    left: 90px;
+        P{
+            position: relative;
+            text-decoration: none;
+            font-size: 30px;
+        }
+}
+.block3{
+    position: relative;
+    left: 350px;
+    top: -190px;
+    li{
+        text-decoration: none;
+        display: block;
+        a{
+            position: relative;
+            text-decoration: none;
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+    }
+}
+.block4{
+    position: relative;
+    top: -300px;
+    left: 580px;
+    p{
+      position: relative;
+      font-size: 14px;  
+    }
+}
+.block5{
+    position: relative;
+    top: -430px;
+    left: 930px;
+    font-size:16px;
+}
+.block6{
+    position: relative;
+    top: -400px;
+    left: 930px;
+    font-size:16px ;
+}
+.footer2{
+    position: relative;
+    top: -350px;
+    font-size:16px ;
+    left: 20px;
+}

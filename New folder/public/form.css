@@ -1,0 +1,52 @@
+.container{
+    padding:20px;
+    width:420px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 20px;
+     background-color:#D8E2ED;
+    h2{
+        text-align: center;
+    }
+    label{
+        position: relative;
+        left:10px;
+    }
+    input{
+        position: relative;
+        left:10px;
+         border-radius: 10px;
+         border: 1px solid black;
+         padding:10px;
+         
+    }
+    button{
+        position: relative;
+        left:150px;
+        top:-20px;
+        border: 1px solid black;
+        border: none;
+        border-radius: 10PX;
+        padding: 10px;
+        width: 100px;
+        background-color: #232F74;
+        color: white;
+    }
+    .in{
+        position: relative;
+        top:-40px;
+    }
+    .ln{
+        left:220px;
+        top:-55px;
+    }
+    .ln1{
+        left:220px;
+        top:-55px;
+    }
+    .text{
+        position: relative;
+        top:-40px;
+        width:400px;
+    }    
+}
