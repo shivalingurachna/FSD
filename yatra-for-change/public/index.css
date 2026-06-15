@@ -1,0 +1,250 @@
+body{
+        overflow-x: hidden;
+    }
+.sticky-nav {
+    position: sticky;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background-color:#232F73;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    line-height: 1.1;
+    color: #1a202c;
+}
+.menu{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #232F73;
+}
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.menu a.active, .menu a:hover {
+    color: #D8E2ED;
+}
+
+.auth-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-dropdown-wrapper {
+    position: relative; 
+    display: inline-block;
+}
+
+.profile-trigger-btn {
+    background: #232F73;
+    border: 1px solid #cbd5e0;
+    padding: 8px 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+}
+.dropdown-menu-box {
+    position: absolute;
+    top: 110%; 
+   right:0%;
+    background-color: #D8E2ED;
+    min-width: 180px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    display: none;
+    z-index: 1010;
+}
+.dropdown-menu-box a {
+    display: block;
+    color: black;
+     left:0px;
+     top: 8px;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.dropdown-menu-box a:hover {
+    background-color:#a9c3e5;
+    color:black;
+}
+.profile-dropdown-wrapper:hover .dropdown-menu-box {
+    display: block;
+}
+
+
+.image img{
+    position: relative;
+    width: 1250px;
+    height: 500px;
+    left: 40px;
+    top: 100px;
+    border-radius: 20px;
+}
+.image::before{
+    content:"";
+    position: absolute;
+    top: 194px;
+    left: 47px;
+    border-radius: 20px;
+    width: 1250px;
+    height:500px;
+    background: rgba(0, 0, 0, 0.4);
+    z-index:1; 
+}
+p{
+    position:absolute;
+    top: 500px;
+    left: 350px;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Caveat', cursive;
+    font-weight: 400px;
+    z-index:2; 
+}
+a{
+    font-size: 18px;
+    position: relative;
+    left: 300px;
+    color:white;
+    z-index:3; 
+}
+
+footer{
+    position: relative;
+    background-color: #232F73;
+    width: 100%;
+    height: 200px;
+    font-size: 12px;
+    top: 500px;
+    color: #ffffff;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block-1{
+    position: absolute;
+p{
+         position: relative;
+         font-size: 14px;  
+        top: 50px;
+        left: 100px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.block-2 {
+    position: relative;
+    left: 350px;
+}
+.a-block-2{
+    position: relative;
+    font-size: 14px;
+    left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block-3 {
+    position: relative;
+    left: 600px;
+    top: -150px;
+}
+.a-block-3{
+    position: relative;
+    font-size: 14px;
+    left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.block-4{
+    p{
+        position: relative;
+        top: -290px;
+        left: 900px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+}
+.block-5{
+    p{
+        position: relative;
+        top: -260px;
+        left: 1500px;
+        text-align: justify;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.about-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    top: 100px;
+    padding: 50px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 320px;
+    min-height: 450px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    position: static;
+}
+
+.card h2{
+    color: #232F73;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.card p{
+    position: static;
+    top: 0;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+    transform: none;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}

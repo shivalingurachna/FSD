@@ -1,6 +1,7 @@
-- [ ] Read current `team-project.html` and `team-project.css` (done)
-- [ ] Create a corrected (plain CSS) version of `team-project.css` (remove nesting)
-- [ ] Fix `team-project.html` issues (remove empty anchors, ensure cards/links correct)
-- [ ] Update CSS selectors to match HTML structure
-- [ ] Quick validation: open html in browser / check no major layout break
+# TODO
+
+- [ ] Read the existing navbar code in `bootstrap/project.html` and identify what’s broken.
+- [ ] Propose an edit plan to fix the navbar toggle/collapse + align links to sections.
+- [ ] Apply the fix to `bootstrap/project.html`.
+- [ ] Run a quick sanity check in the browser (open the HTML) to confirm navbar works on mobile and desktop.
 

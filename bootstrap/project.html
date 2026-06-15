@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>project-solo</title>
+</head>
+
+<style>
+    /* Let Bootstrap handle collapse display.
+       Only adjust alignment on wider screens. */
+    @media only screen and (min-width:720px){
+        #mynav{
+            justify-content: flex-end;
+        }
+    }
+    @media only screen and (max-width:720px){
+        .image-about-2{
+            position: relative;
+            left: 45px;
+        }
+    }
+    
+    .divider-image {
+      background: url("https://uploads-ssl.webflow.com/64542138e0be122910058cd2/64618f8ffe83762f1270420c_Girl-Goat-Los-Angeles-05.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 400px; /* adjust height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      background-attachment: fixed;
+
+    }
+    .back-image{
+        background:url("https://tse1.mm.bing.net/th/id/OIP.6QbJ1DTz20xP-Ha4Pd92JwAAAA?r=0&cb=thfvnextfalcon2&w=360&h=220&rs=1&pid=ImgDetMain&o=7&rm=3")
+        
+     }
+    .book-image {
+  background: 
+    linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), 
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/91/ef/de/the-main-idea-behind.jpg?w=1200&h=-1&s=1") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+.footer-back{
+    background: 
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+  background-size: cover;
+  height: 400px;
+}
+.gallery-img2{
+    position: relative;
+    left: 60px;
+}
+.gallery-img1{
+    position: relative;
+    left: 25px;
+
+}
+.gallery-img3{
+    position: relative;
+    left: -15px;
+    top: 4px;
+    background: 
+    linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)), 
+    url("https://b.zmtcdn.com/data/pictures/chains/4/20483144/e45c7ef3045c69d0075464ac35c7224e.jpeg?output-format=webp&fit=around|300:273&crop=300:273;*,*") no-repeat center center;
+    background-size: cover;
+  height: 300px;
+}
+.overlay-text{
+    color: #ffffff;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    text-decoration: none;
+}
+.video{
+    position: relative;
+    object-fit: cover;
+    left: 10px;
+    width: 100%;
+    height: 300px;
+}
+#contact{
+    background-color:#18100B;
+    color: #E8E7E6;
+    a{
+        text-decoration: none;
+        color: #E8E7E6;
+    }
+    
+}
+.btn{
+    background-color: #77613F;
+    border: 1px soild #ffffff;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #CAA96F;
+    color: black;
+}
+#myimg .carousel-item img{
+  height: 300px;    
+  object-fit: cover;
+}
+.image-menu:hover{
+  margin: 0 0.5rem;
+  animation: pulse; 
+  animation-duration: 1s; 
+}
+.room-image1{
+    position: relative;
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/04/Jamavar-Dubai-Interiors-2-1-e1777009973447.webp") no-repeat center center;
+    background-size: cover;
+}
+.room-image2{
+    position: relative;
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/04/The-bar-jamavar-dubai.webp") no-repeat center center;
+    background-size: cover;
+}
+.room-image3{
+    position: relative;
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/06/Jamavar-20.webp") no-repeat center center;
+    background-size: cover;
+}
+.text{
+    position: relative;
+    color:#C8C5C2;
+    top: 380px;
+
+}
+.happen-block{
+    background-color: #18100B;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<div class="container-fluid pb-5  ">
+        <div class="row ">
+        <section class="about">
+            <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+                <a class="navbar-brand img-fluid ps-5 ms-5 fw-bold fs-3" href="#home">One Lounge Bar & kitchen</a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mynav"
+                    aria-controls="mynav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto me-5 fs-5 fw-bold">
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Our story</a></li>
+                        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="video-container" id="home">
+               <video autoplay muted loop playsinline width="1313px">
+              <source src="rest-video.mp4" type="video/mp4">
+              </video>
+            </div>
+            </div>
+        </section>
+        </div>
+    </div>
+
+<body>
+<section class="divider-image">
+    <p>Enjoy the vibe...</p>
+  </section>
+
+<div class="back-image container-fluid">
+      <div class=" container m-5 " id="about">
+    <div class="row pt-5 mt-5">
+        <div class="col-md-3 ps-5 "  >
+                 <img style="width:200px;height:300px; object-fit:cover;" class="img-fluid image-menu " src="https://cdn.prod.website-files.com/64542138e0be122910058cd2/6739334b1229ecc8454d47ed_Girl-Goat-Los-Angeles-04-compressed-p-500.avif" alt="">
+        </div>
+        <div class="col-md-3 ps-1 " >
+                <img style="width:200px;height:300px; object-fit:cover;" class="img-fluid image-menu  image-about-2 " src="https://cdn.prod.website-files.com/64542138e0be122910058cd2/6739334bc37634f53f8869c3_Girl-Goat-Los-Angeles-05-compressed-p-500.avif" alt="">
+            </div>
+        <div class="col-md-6">
+            <h3 class="text-center pt-4 fw-bold ">One Lounge Bar & kitchen</h3><br>
+            <p class="text-center">In summer 2021, Girl & the Goat went west for sunny skies and new culinary adventures. Chef Stephanie Izard and her team are thrilled to be part of LA’s vibrant restaurant community and take advantage of the area’s incredible bounty of produce and long growing seasons. While Girl & the Goat shares the global influence and bold flavors of its Chicago flagship, the culinary team is always crafting new dishes inspired by California produce and local flavors.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="book-image container-fluid mt-5 pt-5 mb-5 pb-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <div class="carousel slide "  data-bs-ride="carousel" >
+                 <div class="carousel caption ">
+                       <h3 class="text-center pt-5 mt-5">Make a Reservation</h3><br><br>
+                       <button class="btn  text-center"> Book a table</button>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <h3 class="text-center pt-5 pb-5" id="menu" >Menu</h3>
+        <div class="col-md-5">
+            <h3 class="fw-900 fs-40">Selections from<br>The House</h3><br>
+            <button class="btn text-center">View Menu</button>
+        </div>
+        <div class="col-md-7">
+            <p>At Jamavar Dubai, our Culinary Director Surender Mohan curates a menu that evolves with the seasons, celebrating the richness and diversity of India’s regional cuisine, while thoughtfully incorporating the finest locally sourced produce.</p>
+            <p>Rooted in tradition yet reimagined with intention, every preparation carries the essence of generations, expressed through precision, warmth, and craft.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid  mt-5 ">
+    <div class="row">
+        <div class="col-md-3">
+            <img style="width:330px;height:200px; object-fit:cover;" class="img-fluid image-menu"  src="https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/05/CHANDNI-CHOWK-KI-ALOO-TIKKI-700x450.webp" alt=""><br>
+            <br><h6>Chandni Chowk Ki Aloo Tikki</h6>
+            <p>Crisp potato tikki served with spiced white peas, creamy yoghurt, and a vibrant medley of tamarind and mint chutneys for a bold, street-inspired elegance.</p>
+            <a href="#" class="" style="color:black;">Explore Menu</a>
+        </div>
+        <div class="col-md-3">
+            <img style="width:330px;height:200px; object-fit:cover;" class="img-fluid image-menu"  src="https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/05/SPICY-SOFT-SHELL-CRAB-700x450.webp" alt=""><br>
+            <br><h6>Tellicherry Pepper & Garlic Soft Shell Crab</h6>
+            <p>Crispy soft shell crab spiced with bold Tellicherry pepper and garlic, served with plum chutney, garlic chips, and a house-made garlic pickle.</p>
+            <a href="#" style="color:black;">Explore Menu</a>
+        </div><br>
+        <div class="col-md-3">
+            <img style="width:330px;height:200px; object-fit:cover;" class="img-fluid image-menu"  src="https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/05/MALAI-STONE-BASS-TIKKA-700x450.webp" alt=""><br>
+            <br><h6>Malai Stone Bass Tikka</h6>
+            <p>Delicately charred stone bass tikka, enriched with mace and green cardamom, paired with creamy avocado and refreshing mint chutney for a refined coastal finish.</p>
+            <a href="#" class="" style="color:black;">Explore Menu</a>
+        </div>
+        <div class="col-md-3">
+            <img style="width:330px;height:200px; object-fit:cover;" class="img-fluid image-menu" src="https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/05/OLD-DELHI-BUTTER-CHICKEN--700x450.webp" alt=""><br>
+            <br><h6>Old Delhi Butter Chicken</h6>
+            <p>Char-grilled chicken simmered in a rich tomato and fenugreek sauce, reimagining Old Delhi’s iconic butter chicken with depth, warmth, and finesse.</p>
+            <a href="#" class="" style="color:black;">Explore Menu</a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="  container-fluid happen-block mt-5 pt-5 pb-5 mb-5 ">
+    <div class="row">
+            <h3 class="text-center pb-5">Happenings</h3>
+            <div class="col-md-6 mt-5 pt-5 p-5">
+                 <h3 class="text-center" >Celebrate Life’s Special Moments</h3><br>
+                 <p class="text-center">  Life is full of reasons to celebrate — from birthdays and anniversaries to festive holidays and family milestones. Join us for unforgettable gatherings filled with delicious food, refreshing drinks, and the perfect atmosphere to make lasting memories.</p><br>
+                 <button class="btn text-center">RESERVATIONS</button><br>
+            </div>
+
+                <div class="col-md-6 mt-5"> 
+                <div class="carousel slide " id="reservationCarousel" id="myimg" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-item active  ">
+                    <img class="d-block w-100 img-fluid rounded img-thumbnail object-fit:cover; " id="myimg" src="https://b.zmtcdn.com/data/pictures/7/20953447/e7263b4425011b083a8eaedd7ebcfa1b.jpg" alt="">
+                 </div>
+                 <div class="carousel-item ">
+                    <img class="d-block w-100 img-fluid rounded img-thumbnail object-fit:cover;" id="myimg" src="https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605db02857f68d1013a8882_Girl-Goat-Los-Angeles-02.avif" alt="">
+                 </div>
+                 <div class="carousel-item">
+                    <img class="d-block w-100 img-fluid rounded img-thumbnail object-fit:cover;" id="myimg" src="https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605db0388ac714374968be0_Girl-Goat-Los-Angeles-03-.avif" alt="">
+                 </div>
+                 <div class="carousel-indicators">
+                    <button data-bs-target="#myimg" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#myimg" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#myimg" data-bs-slide-to="2"></button>
+                 </div>         
+                </div>
+            </div>
+              <div class="row">
+                   </div>
+                <div class="col-md-6 mt-5 ">
+                    <div class="carousel slide " id="reservationCarousel" id="myimg" data-bs-ride="carousel" data-bs-interval="2000">
+                       <div class="carousel-item active  ">
+                           <img class="d-block w-100 img-fluid rounded img-thumbnail object-fit:cover; " id="myimg" src=" https://cdn.prod.website-files.com/64542138e0be122910058cd2/6986615110469c9b4451defa_6F3A9591_edited-p-800.jpeg" alt="">
+                        </div>
+                        <div class="carousel-item ">
+                           <img class="d-block w-100 img-fluid rounded img-thumbnail object-fit:cover;" id="myimg" src="https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/05/AX9I4123-copy-700x450.webp" alt="">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100  img-fluid rounded img-thumbnail object-fit:cover;" id="myimg" src="https://cdn.prod.website-files.com/64542138e0be122910058cd2/6605db02857f68d1013a8882_Girl-Goat-Los-Angeles-02.avif" alt="">
+                        </div>
+                        <div class="carousel-indicators">
+                           <button data-bs-target="#myimg" data-bs-slide-to="0" class="active"></button>
+                           <button data-bs-target="#myimg" data-bs-slide-to="1"></button>
+                           <button data-bs-target="#myimg" data-bs-slide-to="2"></button>
+                        </div>  
+                    </div>       
+                </div>
+                <div class="col-md-6 mt-5 pt-5 p-5">
+                 <h3 class="text-center">Sunday Brunch</h3><br>
+                <p class="text-center">Join us every Sunday from 10am-2pm to enjoy shareable brunch favorites, handcrafted cocktails, and more.Gather your G.O.A.T crew for delicious dishes and good vibes!</p><br>
+                <button class="btn text-center">RESERVE</button><br>
+            </div>
+
+            <div class="container mt-5 pt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center">PRIVATE DINING</h6>
+                        <h1 class="text-center">The Dining Rooms</h1>
+                        <button class="btn " class="text-center"> EXPLORE ROOMS</button>
+                        <div class="container-fluid mt-5 pt-5" >
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="room-image1 col-md-3 p-1 ">
+                                        <h5 class="text">The Dining Room</h5>
+                                        <h6 class="text">Up to 72 guests.</h6><br>
+                                        <p class="text text-decoraton-underline">ENQUIRE</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="room-image2 col-md-3 p-1 ">
+                                          <h5 class="text">The Bar</h5>
+                                        <h6 class="text">Up to 28 guests standing.</h6><br>
+                                        <p class="text text-decoraton-underline">ENQUIRE</p>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="room-image3 col-md-3 p-1 ">
+                                        <h5 class="text">The Terrace</h5>
+                                        <h6 class="text">Up to 40 guests.</h6><br>
+                                        <p class="text text-decoraton-underline">ENQUIRE</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div>
+    </div>
+    <hr  class="mb-5 mt-5">
+    <div class="container mb-5 pb-5">
+     <div class="row mb-5 pb-5">
+            <h3 class=" text-center mb-5 pb-3"id="gallery">Gallery</h3>
+            <div class=" gallery-img1 col-md-6 p-1">
+                    <img  style="width:600px;height:300px;" src="https://b.zmtcdn.com/data/pictures/4/20483144/33324285620d62956ec67a7758ce5e22.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*" alt="">
+            </div>
+            <div class="gallery-img2 col-md-3 p-1 ">
+                <img  style="width:200px;height:150px;" src="https://b.zmtcdn.com/data/pictures/chains/4/20483144/e94d95835bed584ab67277927cb6a095.jpeg?output-format=webp&fit=around|300:273&crop=300:273;*,*" alt="">
+                 <img style="width:200px;height:150px;"  src="https://b.zmtcdn.com/data/pictures/chains/4/20483144/d6d7e782ae110a0c2caa83dad475a077.jpeg?output-format=webp&fit=around|300:273&crop=300:273;*,*" alt="">
+                </div>
+             <div class="gallery-img3 col-md-3 p-1 ">
+                <a href="#" class="overlay-text text-center">View Gallery</a>
+             </div>
+        </div>
+     </div>
+</div>
+<div class="container-fluid" id="contact">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-4 text-center">
+            <h5>Address</h5>
+            <p>555-3 Mateo St.<br>Los Angeles, CA</p>
+           <iframe  src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7220.326770962628!2d55.27103!3d25.197712!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDExJzUxLjgiTiA1NcKwMTYnMTUuNyJF!5e0!3m2!1sen!2sus!4v1781519917952!5m2!1sen!2sus" width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5>Open Hours</h5>
+            <p>Monday & Tuesday <br>5pm - 9:30pm</p>
+            <p>Wednesday - Saturday<br>5pm - 10pm</p>
+            <p>Sunday<br>10am - 2pm<br>5pm - 9:30pm</p><br><br><br>
+        </div>
+        <div class="col-md-4 text-center" >
+            <h5>Contact</h5>
+            <a href="#" class="">213-799-4628</a><br>
+            <a href="#" class="">info.la@girlandthegoat.com</a><br><br>
+            <h5>pick up & delivery</h5>
+            <a href="#" class="text-decoration-underline">Oder Now</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
