@@ -1,0 +1,152 @@
+@media only screen and (min-width=700px) {
+    .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.video{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+   z-index: 1000;
+}
+
+.divider-image {
+      background: url("https://uploads-ssl.webflow.com/64542138e0be122910058cd2/64618f8ffe83762f1270420c_Girl-Goat-Los-Angeles-05.jpeg") no-repeat center center;
+      background-size: cover;
+      height: 400px; 
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      background-attachment: fixed;
+}
+.back-image{
+        background:url("https://tse1.mm.bing.net/th/id/OIP.6QbJ1DTz20xP-Ha4Pd92JwAAAA?r=0&cb=thfvnextfalcon2&w=360&h=220&rs=1&pid=ImgDetMain&o=7&rm=3")
+}
+.book-image {
+  background: 
+    linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), 
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/91/ef/de/the-main-idea-behind.jpg?w=1200&h=-1&s=1") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  z-index: 1000;
+}
+.footer-back{
+    background: 
+    linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+  background-size: cover;
+  height: 400px;
+}
+.gallery-img2{
+    height: 150px;
+}
+.gallery-img3{
+    background: 
+    linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)), 
+    url("https://b.zmtcdn.com/data/pictures/chains/4/20483144/e45c7ef3045c69d0075464ac35c7224e.jpeg?output-format=webp&fit=around|300:273&crop=300:273;*,*") no-repeat center center;
+    background-size: cover;
+}
+.overlay-text{
+    color: #ffffff;
+    position: relative;
+    top: 150px;
+   align-content: center;
+    text-decoration: none;
+}
+.video{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#contact{
+    background-color:#18100B;
+    color: #E8E7E6;
+    a{
+        text-decoration: none;
+        color: #E8E7E6;
+    }  
+}
+.btn{
+    background-color: #77613F;
+    border: 1px soild #ffffff;
+    color: #ffffff;
+     z-index: 1000;
+}
+.btn:hover{
+    background-color: #CAA96F;
+    color: black;
+}
+#myimg .carousel-item img{
+  height: 300px;    
+  object-fit: cover;
+}
+.image-menu:hover{
+  margin: 0 0.5rem;
+  animation: pulse; 
+  animation-duration: 1s; 
+}
+.room-image1{
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/04/Jamavar-Dubai-Interiors-2-1-e1777009973447.webp") no-repeat center center;
+    background-size: cover;
+}
+.room-image2{
+  
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/04/The-bar-jamavar-dubai.webp") no-repeat center center;
+    background-size: cover;
+}
+.room-image3{
+   
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://cdn.jamavarrestaurants.com/wp-content/uploads/2026/06/Jamavar-20.webp") no-repeat center center;
+    background-size: cover;
+}
+.text{
+    position: relative;
+    top: 380px;
+    color:#C8C5C2;
+
+}
+.happen-block{
+    background-color: #18100B;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content,input,textarea,select{
+    background:url("https://tse1.mm.bing.net/th/id/OIP.6QbJ1DTz20xP-Ha4Pd92JwAAAA?r=0&cb=thfvnextfalcon2&w=360&h=220&rs=1&pid=ImgDetMain&o=7&rm=3")
+}
+input,textarea,select{
+    border:1px solid #77613F;
+}

@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <h1 id="myh1">Time Stop watch</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <button class="btn btn-primary" onclick="startTime()" >Start</button>
+                <button class="btn btn-warning" onclick="pauseTime()" >pause</button>
+                <button class="btn btn-danger" onclick="resetTime()" >Reset</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var seconds=0,mins=0,hrs=0;
+        var storeintervel;
+        function timer(){
+            seconds++;
+            if(seconds==10){
+                mins++
+                seconds=0
+            }
+            if(mins==60){
+                hrs++
+                mins=0
+                seconds=0;
+            }
+            document.getElementById("myh1").innerHTML=`${hrs.toString().padStart(2,"0")}:${mins.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}`
+            
+        }
+            function startTime(){
+                storeintervel=setInterval(timer,1000)
+            }
+
+            function pauseTime(){
+                clearInterval(storeintervel)
+            }
+            function resetTime(){
+                seconds=0;
+                mins=0;
+                hrs=0;
+                document.getElementById("myh1").innerHTML=`${hrs.toString().padStart(2,"0")}:${mins.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:`
+            }
+    </script>
+</body>
+</html> !-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <h1 id="myh1">Time Stop watch</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <button class="btn btn-primary" onclick="startTime()" >Start</button>
+                <button class="btn btn-warning" onclick="pauseTime()" >pause</button>
+                <button class="btn btn-danger" onclick="resetTime()" >Reset</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var seconds=10,mins=20,hrs=1;
+        var storeintervel;
+        function timer(){
+            seconds--;
+            if(seconds==0){
+                mins--
+                seconds=10
+            }
+            if(mins==0){
+                hrs--
+                mins=10
+                seconds=10;
+            }
+            document.getElementById("myh1").innerHTML=`${hrs.toString().padStart(2,"0")}:${mins.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}`
+            
+        }
+            function startTime(){
+                storeintervel=setInterval(timer,1000)
+            }
+
+            function pauseTime(){
+                clearInterval(storeintervel)
+            }
+            function resetTime(){
+                seconds=10;
+                mins=20;
+                hrs=1;
+                document.getElementById("myh1").innerHTML=`${hrs.toString().padStart(2,"0")}:${mins.toString().padStart(2,"0")}:${seconds.toString().padStart(2,"0")}:`
+            }
+    </script>
+</body>
+</html>
